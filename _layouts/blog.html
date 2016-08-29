@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+
+  {% include header.html %}
+
+  <div class="container-blog">
+    <header class="quote-right-blog">
+      <span>{{ page.quote }}</span><br>
+      <div class="author blog-quote-author">{{ page.author_quote }}</div>
+    </header>
+
+  <!-- <div class="articles-right-blog">
+</div> -->
+<section class="row row-blog">
+  <section class="page-content blog col-md-7">
+
+    <h1 class="page-title">{{ page.title-articles }}</h1>
+    {% assign posts=site.posts | where:"lang", page.lang %}
+    {% for post in posts %}
+    <div class="row">
+      <div class="col-md-3 col-xs-12">
+        <a href="{{ post.url | prepend: site.base_url }}"><img src="{{ post.images[0].url | prepend: site.base_url }}" /></a>
+      </div>
+      <div class="col-md-9">
+        <article>
+          <a href="{{ post.url | prepend: site.base_url }}">{{ post.title }}</a>  &nbsp;<span class="date-post">   {{ post.date | date_to_string }}</span><br>
+          <div class="excerpt">{{ post.content | strip_html | truncatewords: 40 }} <a href="{{ post.url | prepend: site.base_url }}" class="read-more">Read more >></a></div>
+        </article>
+      </div>
+    </div>
+    <br><br>
+    {% endfor %}
+
+  </section>
+
+  <aside class="page-content top-articles col-md-5 col-xs-12">
+    <h1 class="page-title">{{ page.title-top }}</h1>
+    {% for love in page.links_love %}
+    <a href="{{ love.link }}" target="_blank">{{ love.title }}</a>  <span class="credit_love">  by {{ love.author }}</span>
+    <br>
+    {% endfor %}
+  </aside>
+</section>
+
+</div>
+
+</body>
+
+</html>

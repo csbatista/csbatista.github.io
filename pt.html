@@ -1,0 +1,35 @@
+---
+layout: landing
+lang: pt
+ref: index
+---
+
+<div class="lang-selectors-index">
+    {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+    {% for page in pages %}
+      
+        <a href="{{ page.url }}" class="{{ page.lang }}"><img class="lang-selector" src="../{{ page.lang }}.png" /></a>
+      
+    {% endfor %}
+  </div>
+<div class="home">
+    
+</div>
+<div class="index-left">
+      
+  <img class="logo-index" src="nome.svg"></img>
+</div>
+
+
+<nav id="main-nav">
+	<a href="{{ site.url }}">Home</a>
+          <span class="separator-nav">  /  </span>
+   {% assign pages=site.pages | where:"lang", page.lang %}
+	{% for page in pages %}
+    {% if page.title %}
+  	 <a href="{{ page.url }}">{{ page.title }}</a>
+       <span class="separator-nav">  /  </span>
+    {% endif %}
+	{% endfor %}
+	<a href="http://be.net/csbatista">Portf&oacute;lio</a>
+</nav>
