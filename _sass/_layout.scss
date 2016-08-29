@@ -696,10 +696,10 @@ ul.nav li a{
         right: 0;
         position:absolute;
         height: 240px;
-        width: 50%;
+        width: 45%;
         
-        -webkit-clip-path: polygon(12% 0px, 100% 0px, 100% 240px, 5% 240px, 6% 150px, 0 105px, 13% 105px, 10% 60px);
-        clip-path: polygon(12% 0px, 100% 0px, 100% 240px, 5% 240px, 6% 150px, 0 105px, 13% 105px, 10% 60px);
+        -webkit-clip-path: polygon(12% 0px, 100% 0px, 100% 240px, 5% 240px, 6% 150px, 0% 105px, 13% 105px, 10% 60px);
+        clip-path: polygon(12% 0px, 100% 0px, 100% 240px, 5% 240px, 6% 150px, 0% 105px, 13% 105px, 10% 60px);
         
 
         padding-right: 20px;
