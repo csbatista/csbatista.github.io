@@ -31,7 +31,7 @@
             {% assign pages=site.pages | where:"lang", page.lang %}
             {% for my_page in pages %}
               {% if my_page.title %}
-              <li><a {% if my_page.title == page.title %} class="active" {% endif %} href="../{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+              <li><a {% if my_page.title == page.title %} class="active" {% endif %} href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
               {% endif %}
             {% endfor %}
             <li><a  href="http://be.net/csbatista" target="_blank">Portfolio</a></li>
