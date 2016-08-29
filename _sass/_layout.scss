@@ -676,17 +676,8 @@ ul.nav li a{
 /*-------------------------*/
 /*    blog & contact       */
 /*-------------------------*/
-@media screen and (min-width: 800px)  {
-    .quote-right-blog::before, .quote-right-contact::before{
-        content: '';
-        height: 4px;
-        width: 110%;
-        background-color: rgba(0,0,0, 0.1);
-        position: absolute;
-        top: 70px;
-        right: 0;
-    }
-}
+
+
 
 .quote-right-blog, .quote-right-contact{
     
