@@ -258,8 +258,8 @@ html,body, .home, .home-overlay { height: 100%; margin: 0px; padding: 0px; }
     background-size: auto 100%;
     background-position: right;
 
-    -webkit-filter: sepia(1) saturate(1) hue-rotate(180deg) brightness(0.8);
-    filter: sepia(1) saturate(2) hue-rotate(100deg);
+    /*-webkit-filter: sepia(1) saturate(1) hue-rotate(180deg) brightness(0.8);
+    filter: sepia(1) saturate(2) hue-rotate(100deg);*/
 
 
     @media screen and (max-width: 800px){
@@ -400,6 +400,7 @@ html,body, .home, .home-overlay { height: 100%; margin: 0px; padding: 0px; }
         background-color: #e76a6a;
         z-index: 5;
         -webkit-clip-path: polygon(0px 0px, 100% 0px, 98% 50%, 100% 100%, 0% 100%);
+        clip-path: polygon(100% 0px, 100% 0px, 98% 60px, 100% 95px, 70% 96px, 54% 120px, 32% 96px, 0% 120px);
     }
 }
 
@@ -526,13 +527,13 @@ ul.nav li a{
         position: absolute;
     }
 
-    background-image: url('../foto_about.png');
+    background-image: url('../foto_about.jpg');
     background-size: auto 100%;
     background-position: right;
     
     z-index: 0;
-    -webkit-filter: sepia(1) saturate(1) hue-rotate(180deg) brightness(0.8);
-    filter: sepia(1) saturate(2) hue-rotate(100deg);
+    /*-webkit-filter: sepia(1) saturate(1) hue-rotate(180deg) brightness(0.8);
+    filter: sepia(1) saturate(2) hue-rotate(100deg);*/
 
 }
 
