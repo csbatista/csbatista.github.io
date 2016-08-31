@@ -2,8 +2,8 @@
 layout: post
 title:  "Helo World!"
 date:   2016-08-27 19:37:09 -0300
-categories: misc pessoal
-tags: misc pessoal
+categories: misc personal
+tags: misc personal
 images: 
     - url: ../foto_home.jpg
 
