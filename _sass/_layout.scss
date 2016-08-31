@@ -447,10 +447,7 @@ html,body, .home, .home-overlay { height: 100%; margin: 0px; padding: 0px; }
         
         padding-top: 200px;
 
-        article{
-            /* SCROLLBAR */
-            /* Let's get this party started */
-            ::-webkit-scrollbar {
+        ::-webkit-scrollbar {
                 width: 10px;
             }
             
@@ -466,6 +463,11 @@ html,body, .home, .home-overlay { height: 100%; margin: 0px; padding: 0px; }
                 background: #FFFFFF;
                 border: 1px solid #FFFFFF;
             }
+
+        article{
+            /* SCROLLBAR */
+            /* Let's get this party started */
+            
             overflow-y: scroll;
             padding-left: 5%;
             padding-bottom: 5%;
