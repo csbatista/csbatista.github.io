@@ -19,5 +19,5 @@ I don't know if I can keep a good post frequency, since it is the last semester 
 
 Some nice things about the website+blog:
 
-- I made it using Jekyll ([and this course by William Justen, in portuguese](http://willianjusten.teachable.com/courses/criando-sites-estaticos-com-jekyll)), and I've gotta say: what an amazing thing! How did I not know about this?
+- I made it using Jekyll ([and this course by Willian Justen, in portuguese](http://willianjusten.teachable.com/courses/criando-sites-estaticos-com-jekyll)), and I've gotta say: what an amazing thing! How did I not know about this?
 - It is still under construction and I think it will be forever. I hurried to finish to keep myself motivated with the posts idea, so there are some things that might still need some work, but I also think that I will never be 100% satisfied :)
