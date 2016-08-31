@@ -37,13 +37,13 @@
 
   </section>
 
-  <aside class="page-content top-articles col-md-5 col-xs-12">
+  <div class="page-content top-articles col-md-5 col-xs-12">
     <h1 class="page-title">{{ page.title-top }}</h1>
     {% for love in page.links_love %}
     <a href="{{ love.link }}" target="_blank">{{ love.title }}</a>  <span class="credit_love">  by {{ love.author }}</span>
     <br>
     {% endfor %}
-  </aside>
+  </div>
 </section>
 
 </div>
