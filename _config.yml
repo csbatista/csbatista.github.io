@@ -18,7 +18,7 @@ twitter_username: ahhcaarol
 github_username:  csbatista
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 permalink: /:title
 
 collections:
