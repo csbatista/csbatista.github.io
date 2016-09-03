@@ -1001,11 +1001,23 @@ z-index: 2;
 }
 article.post{
     @media screen and (min-width: 800px)  {
-        margin-top: 300px;
+        margin-top: 250px;
     }
     header{
         margin-bottom: 50px;
     }
+
+    h4{
+        font-family: 'Sanchez', cursive;
+        font-weight: 700;
+        font-size: 2.2rem;
+        color: #e76a6a;
+    }
+
+}
+
+code{
+    font-size: 1.2rem !important; 
 }
 
 .background-post{
