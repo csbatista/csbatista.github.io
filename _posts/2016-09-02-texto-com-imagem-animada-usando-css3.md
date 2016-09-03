@@ -5,7 +5,7 @@ date:   2016-09-02 19:37:09 -0300
 categories: css3 animacao efeitos
 tags: css3 efeitos animacao texto
 images: 
-    - url: ../foto_home.jpg
+    - url: ../assets/post_text-animation-css.jpg
 
 lang: pt
 ref: text-image-animation
