@@ -85,7 +85,8 @@ TCHARAAAAN! TERMINAMOS! Fácil né?
 Agora vamos ver nossas opções quanto aos browsers que não usam o `webkit`. Nesses browsers o "corte" do plano de fundo pelo texto não funciona, então de todo jeito seu texto ficará de uma cor só, e não será preenchido pela imagem. Então aqui, sem usar JavaScript, temos duas opções:
 
 <br>
-####Opção 1:
+
+#### Opção 1:
 __Browsers com webkit:__ efeito e animação como no exemplo <br>
 __Browsers sem webkit:__ texto de cor única com background do div animado
 
@@ -95,7 +96,7 @@ Nesse caso, o código fica como está. Nos browsers sem suporte teremos um texto
 <p data-height="265" data-theme-id="0" data-slug-hash="WGNLwR" data-default-tab="result" data-user="csbatista" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/csbatista/pen/WGNLwR/">Animate text image fill - simulation for non Webkit browsers</a> by Carolina Santos Batista (<a href="http://codepen.io/csbatista">@csbatista</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <br>
 
-####Opção 2:
+#### Opção 2:
 __Browsers com webkit:__ imagem preenche o texto, mas sem animação <br>
 __Browsers sem webkit:__ texto de cor única sem background no div
 

@@ -87,7 +87,8 @@ TCHARAAAAN! WE FINISHED! Easy huh?
 Now let's check out our options regarding the browsers that don't have `webkit`. In this browsers the "cut" of the background by the text won't work, so anyhow your text will be filled by a solid color, and not by an image. So, without using JavaScript, we have two options:
 
 <br>
-####Option 1:
+
+#### Option 1:
 __Browsers with webkit:__ effect and animation like the example<br>
 __Browsers without webkit:__ text with solid color and background behind animated
 
@@ -97,7 +98,7 @@ In this case, our code stays how it is. On the browsers that don't have `webkit`
 <p data-height="265" data-theme-id="0" data-slug-hash="WGNLwR" data-default-tab="result" data-user="csbatista" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/csbatista/pen/WGNLwR/">Animate text image fill - simulation for non Webkit browsers</a> by Carolina Santos Batista (<a href="http://codepen.io/csbatista">@csbatista</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <br>
 
-####Option 2:
+#### Option 2:
 __Browsers with webkit:__ image fills the text, but no animation<br>
 __Browsers without webkit:__ text with solid color, no div background
 
