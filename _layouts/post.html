@@ -9,8 +9,11 @@
 	<div class="lang-selectors">
     {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
     {% for post in posts %}
-      
-        <a href="{{ post.url }}" class="{{ post.lang }}"><img class="lang-selector" src="../{{ post.lang }}.png" /></a>
+        {% if post.external_url %}
+          <a href="{{ post.external_url }}" target="_blank" class="{{ post.lang }}"><img class="lang-selector" src="../{{ post.lang }}.png" /></a>
+        {% else %}
+          <a href="{{ post.url }}" class="{{ post.lang }}"><img class="lang-selector" src="../{{ post.lang }}.png" /></a>
+        {% endif %}
       
     {% endfor %}
   </div>

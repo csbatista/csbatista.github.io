@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Blog
-title-articles: My Articles
+title-articles: Articles
 title-top: Stuff I loved reading
 permalink: /blog/
 quote: "“A piece of writing is never good,” he told me. “There is simply a moment when it is less bad than before.”"

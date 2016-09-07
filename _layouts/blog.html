@@ -23,12 +23,21 @@
     {% for post in posts %}
     <div class="row">
       <div class="col-md-3 col-xs-12">
-        <a href="{{ post.url | prepend: site.base_url }}"><img src="{{ post.images[0].url | prepend: site.base_url }}" /></a>
+        {% if post.external_url %}
+          <a target="_blank" href="{{ post.external_url }}"><img src="{{ post.images[0].url | prepend: site.base_url }}" /></a>
+        {% else %}
+          <a href="{{ post.url | prepend: site.base_url }}"><img src="{{ post.images[0].url | prepend: site.base_url }}" /></a>
+        {% endif %}
       </div>
       <div class="col-md-9">
         <article>
-          <a href="{{ post.url | prepend: site.base_url }}">{{ post.title }}</a>  &nbsp;<span class="date-post">   {{ post.date | date_to_string }}</span><br>
-          <div class="excerpt">{{ post.content | strip_html | truncatewords: 35 }} <a href="{{ post.url | prepend: site.base_url }}" class="read-more">Read more >></a></div>
+          {% if post.external_url %}
+            <a target="_blank" href="{{ post.external_url }}">{{ post.title }}</a>  &nbsp;<span class="date-post">   {{ post.date | date_to_string }}</span><br>
+            <div class="excerpt">{{ post.content | strip_html | truncatewords: 35 }} <a href="{{ post.external_url }}" class="read-more" target="_blank">Read more >></a></div>
+          {% else %}
+            <a href="{{ post.url | prepend: site.base_url }}">{{ post.title }}</a>  &nbsp;<span class="date-post">   {{ post.date | date_to_string }}</span><br>
+            <div class="excerpt">{{ post.content | strip_html | truncatewords: 35 }} <a href="{{ post.url | prepend: site.base_url }}" class="read-more">Read more >></a></div>
+          {% endif %}
         </article>
       </div>
     </div>

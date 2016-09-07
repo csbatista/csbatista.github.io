@@ -946,7 +946,7 @@ ul.nav li a{
         background-size: cover;
         background-position: center center;
 
-z-index: 2;
+        z-index: 2;
         border: none !important;
 
         @media screen and (min-width: 800px)  {
@@ -962,18 +962,18 @@ z-index: 2;
         }
 
     }
-@media screen and (min-width: 800px)  {
-    .main-image::before{
-        content: '';
-        height: 4px;
-        width: 110%;
-        background-color: rgba(0,0,0, 0.1);
-        position: absolute;
+    @media screen and (min-width: 800px)  {
+        .main-image::before{
+            content: '';
+            height: 4px;
+            width: 110%;
+            background-color: rgba(0,0,0, 0.1);
+            position: absolute;
 
-        top: 70px;
-        right: 0;
+            top: 70px;
+            right: 0;
+        }
     }
-}
 
     .post-header{
         @media screen and (min-width: 800px)  {
@@ -997,6 +997,19 @@ z-index: 2;
     .post-content{
         color: #747474;
         margin-top: 40px;
+    }
+
+    .pic-post-center{
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        text-align: center;
+        img{
+            margin: auto;
+        }
+        figcaption{
+            margin-top: 10px;
+        }
     }
 }
 article.post{
