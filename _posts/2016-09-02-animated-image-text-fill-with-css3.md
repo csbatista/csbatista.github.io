@@ -88,7 +88,7 @@ Now let's check out our options regarding the browsers that don't have `webkit`.
 
 <br>
 
-#### Option 1:
+## Option 1:
 __Browsers with webkit:__ effect and animation like the example<br>
 __Browsers without webkit:__ text with solid color and background behind animated
 
@@ -98,11 +98,11 @@ In this case, our code stays how it is. On the browsers that don't have `webkit`
 <p data-height="265" data-theme-id="0" data-slug-hash="WGNLwR" data-default-tab="result" data-user="csbatista" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/csbatista/pen/WGNLwR/">Animate text image fill - simulation for non Webkit browsers</a> by Carolina Santos Batista (<a href="http://codepen.io/csbatista">@csbatista</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <br>
 
-#### Option 2:
+## Option 2:
 __Browsers with webkit:__ image fills the text, but no animation<br>
 __Browsers without webkit:__ text with solid color, no div background
 
-In case that it is not possible to have the image on the whole div, the solution would be to get the background only on webkit browsers. To get that, we add '-webkit-linear-gradient(transparent, transparent)' before the bakcground url. That way the browser will see the background as a gradient, which is also only suported by webkit ones, and so the other ones will just ignore it. In this case, when the browser ignores all the webkit attributes, we are left with the text filled with a solid color. The problem of this option is that gradients can't be animated, so we would have to go without the animation for all the browsers and position the background at a single point. The CSS would look like this:
+In case that it is not possible to have the image on the whole div, the solution would be to get the background only on webkit browsers. To get that, we add `-webkit-linear-gradient(transparent, transparent)` before the bakcground url. That way the browser will see the background as a gradient, which is also only suported by webkit ones, and so the other ones will just ignore it. In this case, when the browser ignores all the webkit attributes, we are left with the text filled with a solid color. The problem of this option is that gradients can't be animated, so we would have to go without the animation for all the browsers and position the background at a single point. The CSS would look like this:
 
 ```css
 .container-text {

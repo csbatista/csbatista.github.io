@@ -86,7 +86,7 @@ Agora vamos ver nossas opções quanto aos browsers que não usam o `webkit`. Ne
 
 <br>
 
-#### Opção 1:
+## Opção 1:
 __Browsers com webkit:__ efeito e animação como no exemplo <br>
 __Browsers sem webkit:__ texto de cor única com background do div animado
 
@@ -96,11 +96,11 @@ Nesse caso, o código fica como está. Nos browsers sem suporte teremos um texto
 <p data-height="265" data-theme-id="0" data-slug-hash="WGNLwR" data-default-tab="result" data-user="csbatista" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/csbatista/pen/WGNLwR/">Animate text image fill - simulation for non Webkit browsers</a> by Carolina Santos Batista (<a href="http://codepen.io/csbatista">@csbatista</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <br>
 
-#### Opção 2:
+## Opção 2:
 __Browsers com webkit:__ imagem preenche o texto, mas sem animação <br>
 __Browsers sem webkit:__ texto de cor única sem background no div
 
-Caso não seja possível ter a imagem ocupando div inteiro, a solução seria fazer com que o plano de fundo só fosse aplicado em browsers que usam o webkit. Para isso, colocamos '-webkit-linear-gradient(transparent, transparent)' antes da url do background. Assim, o browser entende o plano de fundo como um gradiente, que só é suportado no webkit, e portanto ignora. Nesse caso, ao ignorar os outros atributos webkit, teremos apenas um texto com a cor definida em `color`. O problema dessa opção é que gradientes não podem ser animados. Nesse caso então, teríamos que abrir mão da animação e posicionar o plano de fundo em um ponto só. O CSS ficaria o seguinte:
+Caso não seja possível ter a imagem ocupando div inteiro, a solução seria fazer com que o plano de fundo só fosse aplicado em browsers que usam o webkit. Para isso, colocamos `-webkit-linear-gradient(transparent, transparent)` antes da url do background. Assim, o browser entende o plano de fundo como um gradiente, que só é suportado no webkit, e portanto ignora. Nesse caso, ao ignorar os outros atributos webkit, teremos apenas um texto com a cor definida em `color`. O problema dessa opção é que gradientes não podem ser animados. Nesse caso então, teríamos que abrir mão da animação e posicionar o plano de fundo em um ponto só. O CSS ficaria o seguinte:
 
 ```css
 .container-text {

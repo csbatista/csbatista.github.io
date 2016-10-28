@@ -1020,11 +1020,9 @@ article.post{
         margin-bottom: 50px;
     }
 
-    h4{
-        font-family: 'Sanchez', cursive;
-        font-weight: 700;
-        font-size: 2.2rem;
+    h2,h3,h4{
         color: #e76a6a;
+        font-weight: 700;
     }
 
 }
@@ -1123,4 +1121,10 @@ code{
     }
 
 
+}
+
+pre{
+    background-color: #f7f7f7 !important;
+    border: none !important;
+    padding-left: 20px !important;
 }

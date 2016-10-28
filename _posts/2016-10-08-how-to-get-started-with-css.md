@@ -24,7 +24,7 @@ I decided to make this post to gather tutorials, tools and useful links for thos
 
 <br>
 
-#### Fun links
+## Fun links
 I think that we learn a lot more when we don't keep ourselves reading texts and more texts, right? There are some fun tutorials (and even games) out there.
 I've gathered some of them:
 
@@ -45,7 +45,7 @@ This is a really nice game! With a cute design, it challenges you to select stuf
 
 <br>
 
-#### Useful links - W3schools
+## Useful links - W3schools
 The W3schools have a lot of material! It is definetly worth it to check it out and navigate through the links. I selected some to highlight:
 
 <br>

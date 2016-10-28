@@ -26,7 +26,7 @@ Resolvi fazer esse post então para reunir tutoriais, ferramentas e links úteis
 
 <br>
 
-#### Links divertidos
+## Links divertidos
 Acho que a gente aprende muito mais quando a gente não fica lendo textos e mais textos né? Tem uns tutoriais (e até jogos!) muito divertidos por aí. Separei alguns:
 
 <br>
@@ -46,7 +46,7 @@ Esse é um jogo muito legal!! Com um design muito bonitinho ele te desafia a sel
 
 <br>
 
-#### Links úteis - W3schools
+## Links úteis - W3schools
 A W3schools tem coisa demais!! Vale muito a pena olhar e ir navegando pelos links. Mas pro post não ficar só com links de lá, separei os que eu acho que merecem um destaque :P
 
 <br>
