@@ -5,7 +5,7 @@ date:   2016-10-27 20:20:00 -0300
 categories: js css html dicas bibliotecas
 tags: js css html dicas bibliotecas 
 images: 
-    - url: ../assets/google_charts.tiff
+    - url: ../assets/google_charts.png
 
 lang: pt
 ref: google-vis-api-responsive
